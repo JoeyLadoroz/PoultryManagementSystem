@@ -14,8 +14,27 @@ class EggProductionController extends Controller
         return view ('admin.eggs.production.index',compact('eggproductions'));
     }
     public function show ()
+    {   
+        $id = $request->id;
+        $eggproductions = EggProduction::find($id);
+        return response()->json($eggproductions);
+    }
+    public function edit (Request $request)
     {
-        // return view ('admin.eggs.production.index',['eggproduction']);
+        $id = $request->id;
+		$eggproductions = EggProduction::find($id);
+		return response()->json($eggproductions);
+    }
+
+    public function update (Request $request)
+    {
+		$emp = EggProduction::find($request->emp_id);
+		$empData = ['type' => $request->type, 'date' => $request->date, 'quantity' => $request->quantity];
+
+		$emp->update($empData);
+		return response()->json([
+			'status' => 200,
+		]);
     }
 
     public function create ()

@@ -11,9 +11,6 @@ class EggSalesController extends Controller
 {
     public function index ()
     {   
-        $total = DB::select('select * from eggproduction');
-        dd($total);
-
         $eggsales =  EggSales::all();
         return view ('admin.eggs.sales.index',compact('eggsales'));
     }

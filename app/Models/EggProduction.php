@@ -12,6 +12,7 @@ class EggProduction extends Model
     protected $table = 'eggproduction';
     protected  $primaryKey = 'id';
     protected $fillable = [
+        'type',
         'date',
         'quantity',
 

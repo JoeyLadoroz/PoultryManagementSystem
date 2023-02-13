@@ -30,7 +30,12 @@ Route::prefix('admin')->middleware('auth','isAdmin')->group(function(){
         //EggsProduction
         Route::get('/table-production',[App\Http\Controllers\Admin\EggProductionController::class, 'index'])->name('table.production');
         Route::get('/table-production-create',[App\Http\Controllers\Admin\EggProductionController::class, 'create'])->name('table.production.create');
+        Route::get('/table-production-edit',[App\Http\Controllers\Admin\EggProductionController::class, 'edit'])->name('table.production.edit');
+        Route::get('/table-production-show',[App\Http\Controllers\Admin\EggProductionController::class, 'show'])->name('table.production.show');
         Route::post('/table-production-store',[App\Http\Controllers\Admin\EggProductionController::class, 'store'])->name('table.production.store');
+        Route::post('/table-production-update',[App\Http\Controllers\Admin\EggProductionController::class, 'update'])->name('table.production.update');
+        Route::delete('/table-production-delete',[App\Http\Controllers\Admin\EggProductionController::class, 'delete'])->name('table.production.delete');
+
 
         // //EggSales
         Route::get('/table-sales',[App\Http\Controllers\Admin\EggSalesController::class, 'index'])->name('table.sales');

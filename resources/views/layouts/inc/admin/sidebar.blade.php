@@ -8,12 +8,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="mdi mdi-circle-outline menu-icon"></i>
+            <a class="nav-link" data-bs-toggle="collapse" href="#eggs" aria-expanded="false" aria-controls="eggs">
+              <i class="fa-solid fa-egg menu-icon"></i>
               <span class="menu-title">Eggs</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ui-basic">
+            <div class="collapse" id="eggs">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="{{route('table.production')}}">Production</a></li>
                 <li class="nav-item"> <a class="nav-link" href="{{route('table.sales')}}">Sales</a></li>
@@ -21,12 +21,12 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="mdi mdi-circle-outline menu-icon"></i>
+            <a class="nav-link" data-bs-toggle="collapse" href="#birds" aria-expanded="false" aria-controls="birds">
+              <i class="fa-solid fa-dove menu-icon"></i>
               <span class="menu-title">Birds</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ui-basic">
+            <div class="collapse" id="birds">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Purchase</a></li>
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Mortality</a></li>
@@ -35,12 +35,12 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="mdi mdi-circle-outline menu-icon"></i>
+            <a class="nav-link" data-bs-toggle="collapse" href="#feeds" aria-expanded="false" aria-controls="feeds">
+              <i class="fa-sharp fa-solid fa-wheat-awn menu-icon"></i>
               <span class="menu-title">Feed</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ui-basic">
+            <div class="collapse" id="feeds">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Purchase</a></li>
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Consumption</a></li>
@@ -49,23 +49,23 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pages/charts/chartjs.html">
-              <i class="mdi mdi-chart-pie menu-icon"></i>
+              <i class="fa-sharp fa-solid fa-warehouse menu-icon"></i>
               <span class="menu-title">Inventory</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pages/charts/chartjs.html">
-              <i class="mdi mdi-chart-pie menu-icon"></i>
+              <i class="fa-solid fa-user menu-icon"></i>
               <span class="menu-title">Personnel</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <i class="mdi mdi-circle-outline menu-icon"></i>
+            <a class="nav-link" data-bs-toggle="collapse" href="#report" aria-expanded="false" aria-controls="report">
+              <i class="fa-solid fa-newspaper menu-icon"></i>
               <span class="menu-title">Reports</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="ui-basic">
+            <div class="collapse" id="report">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Inventory Report</a></li>
                 <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Sales Report</a></li>
